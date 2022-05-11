@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "lib": ["es5", "es6", "dom", "dom.iterable"],
+    "target": "es6",
+    // ...
+  },
+  "include": [
+    "src",
+    "node_modules/@types/puppeteer/index.d.ts"
+  ]
+}
